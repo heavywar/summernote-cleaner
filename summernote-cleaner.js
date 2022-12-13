@@ -103,7 +103,7 @@
                             if($note.summernote('createRange').toString().length===0 &&   $editor.find('.note-status-output').length > 0){
                                 $(".alertSelectHtml").remove();
                                 $editor.find('.note-status-output').before('<div style="padding: 7px 10px 7px 10px; font-size: 13px;margin-bottom: 0;" class="alert alert-warning alert-dismissible fade show alertSelectHtml">' +
-                                    ' <button type="button" class="close" data-dismiss="alert" aria-label="Close">\n' +
+                                    ' <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">\n' +
                                     '    <span style="\n' +
                                     '    position: relative;\n' +
                                     '   \n' +
@@ -114,7 +114,7 @@
                             else {
                                 $(".alertSelectHtml").remove();
                                 $editor.find('.note-status-output').before('<div style="padding: 7px 10px 7px 10px; font-size: 13px;margin-bottom: 0;" class="alert alert-warning alert-dismissible fade show alertSelectHtml">' +
-                                    ' <button type="button" class="close" data-dismiss="alert" aria-label="Close">\n' +
+                                    ' <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">\n' +
                                     '    <span style="\n' +
                                     '    position: relative;\n' +
                                     '   \n' +
